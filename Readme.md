@@ -1,6 +1,6 @@
 # ESVIT migrator
 
-This a powershell scrip to manipulate the ESVIT Sharepoint PowerApps custom form export to be used in other sites, the export is already included but it can be replaced with new versions if needed on the `package` folder.
+This a powershell script to manipulate the ESVIT Sharepoint PowerApps custom form export to be used in other sites, the export is already included but it can be replaced with new versions if needed on the `package` folder.
 
 ## Requirements
 
@@ -10,11 +10,17 @@ This a powershell scrip to manipulate the ESVIT Sharepoint PowerApps custom form
 
 ## Usage
 
-- Run `ESVIT migrator.ps1` with powershell and follow the instructions
+- Enable the execution of unsigned scripts by running
+
+```
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass -Force;
+```
+
+- Run `ESVIT migrator.ps1` and follow the instructions
 
 - Import the .zip file as a regular canvas app on power apps open the editor and publish the app, then change custom form option on the sharepoint list,
 
-see for more information:
+See for more information:
 
 https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/export-import-app#importing-a-canvas-app-package
 
@@ -26,4 +32,4 @@ https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/customize-list-fo
 
 Created by heyner.cuevas@skf.com based on https://github.com/Zerg00s/FlowPowerAppsMigrator
 
-Please don't use the script without my authorization
+You should write me an email if you want to use the script, please don't use the script without my authorization
