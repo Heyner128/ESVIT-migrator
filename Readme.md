@@ -1,6 +1,6 @@
 # ESVIT migrator
 
-This a powershell scrip to manipulate a Sharepoint PowerApps custom form export to be used in other sites, the export is already included but it can be replaced with new versions if needed on the `package` folder.
+This a powershell scrip to manipulate the ESVIT Sharepoint PowerApps custom form export to be used in other sites, the export is already included but it can be replaced with new versions if needed on the `package` folder.
 
 ## Requirements
 
